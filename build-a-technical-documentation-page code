@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML and CSS technical doc</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <nav id="navbar">
+      <header>HTML and CSS</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Beginning_HTML">Beginning HTML</a></li>
+        <li><a class="nav-link" href="#How_to_use_h1-h6_elements">How to use h1-h6 elements</a></li>
+        <li><a class="nav-link" href="#HTML_Features">HTML Features</a></li>
+        <li><a class="nav-link" href="#What_is_CSS?">What is CSS?</a></li>
+        <li><a class="nav-link" href="#CSS_Features">CSS Features</a></li>
+        <li><a class="nav-link" href="#Getting_into_CSS">Getting into CSS</a></li>
+        <li><a class="nav-link" href="#Commenting_in_HTML_and_CSS">Commenting in HTML and CSS</a></li>
+        <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>HTML is a markup language used to define a structure of a web page. CSS is a style sheet language used to style the web pages by using different styling features. It consists of tags inside which text is enclosed. It consists of selectors and declaration blocks. HTML doesn't have further types.</p>
+          <p>HTML or HyperText Markup Language is used for creating web applications and websites. Below, we break the expansion down for better understanding:
+ </p>
+          <ul>
+            <li>HyperText: HyperText or “text wrapped within a text.” is very similar to a hyperlink, but contains an underlying text which, when clicked, initiates a redirection to a new webpage.</li>
+            <li>Markup language: A markup language needn’t be a programming language, but helps in applying formatting and layout to a text document. It helps create a more dynamic and interactive text content.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Beginning_HTML">
+        <header>Beginning HTML</header>
+        <article>
+        The first element you will learn about is the h1 element. The h1 element is a heading element and is used for the main heading of a webpage.Copy paste the code below, take out the spaces when you paste it into this executor<a href="https://codepen.io/freeCodeCamp/pen/MJjpwO"> Here </a> then change the text of the h1 element below from Turkey Buzzard to Hello World !
+        <code>
+       < h1 > Turkey Buzzard < /h1 >
+          
+        </code>
+    </section>
+      </article>
+    <section class="main-section" id="How_to_use_h1-h6_elements">
+      <header>How to use h1-h6 elements</header>
+      <article>
+        <p>
+        The h1 through h6 heading elements are used to signify the importance of content below them. The lower the number, the higher the importance, so h2 elements have less importance than h1 elements.</p>
+        <code>
+        < h1>most important heading element< /h1>
+< h2>second most important heading element< /h2>
+< h3>third most important heading element< /h3>
+< h4>fourth most important heading element< /h4>
+< h5>fifth most important heading element< /h5>
+< h6>least important heading element< /h6>
+       </code> 
+        
+        Copy and paste the code below into the executer, take out the spaces when you paste it into the executor <a href="https://codepen.io/freeCodeCamp/pen/MJjpwO"> Here</a> Below the h1 element, add an h2 element with this text:
+        The One Piece is real!
+        </p>
+      <code>
+       < h1 > Turkey Buzzard < /h1 >
+          
+        </code>
+    </section>
+      </article>
+    <section class="main-section" id="HTML_Features">
+      <header>HTML Features</header>
+      <article>
+        <ul>
+          <li>
+           Considering it is one of the simplest languages to design and code a website, the language is not case-sensitive.</li>
+
+Example: < html> and < HTML> are both acceptable
+
+            <p><li>For purposes of keeping the language usable on any platform, and HTML is not specific to any one operating system like Android OS or the iOS; instead HTML can run on nearly all the OS.</li></p>
+              <p><li>A Tree-structure is the basic aspect of HTML.  This allows a root HTML tag to continue as an element, while child elements which  are added at any point of the structure as head and the body tags.</li></p>
+
+              <p><li> HTML tags shall carry display information that can be used in Firefox, Chrome or any type of browsers
+Very useful for adding images, and hyper images, videos as well as other web pages so as to render them user friendly.</li></p>
+
+    </section>
+      </article>
+    <section class="main-section" id="What_is_CSS?">
+      <header>What is CSS?</header>
+      <article>
+        <p><li><a href="https://www.simplilearn.com/tutorials/css-tutorial/what-is-css">Cascading Style Sheets</a>, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</li></p>
+        <p><li>CSS is designed to enable the separation of document content from document presentation, including elements such as font, layout, and colors.</li></p>
+        <p><li>The style definitions are usually saved in external .css files.</li></p>
+    </section>
+      </article>
+    <section class="main-section" id="CSS_Features">
+      <header>CSS Features</header>
+      <article>
+        <p>CSS is critical for website design as it helps in separating the design from the content. This helps in better readability, flexibility in programming and accessibility.</p>   
+        <p><li>CSS files are integrated in HTML documents thus:</li></p>
+        <p><li>1. Internal CSS – is used as a style tag within the head tag. The advantage of this is the ability to style three or four elements</li></p>   
+        <p><li>2.External CSS- is used to add external CSS file by using the < link>tag and will be positioned in the head tag of the HTML file</li></p>   
+        <p><li>3.Inline CSS – can be counted as a better method to use as it will define properties  for a single tag like style attribute within any tag</li></p>   
+        <p><li>One can use multiple selectors to access every element/group styling is defined as key value pairs, and is used to define the font-size for H1 in 24px, or default 32px. below is a code with extra spaces that is used to call CSS styles to the html code to be used</li></p>
+        <code>
+          Example: < link rel="stylesheet" href="styles.css" /> 
+        </code>   
+    </section>
+      </article>
+    <section class="main-section" id="Getting_into_CSS">
+      <header>Getting into CSS</header>
+      <article>
+        <p>The relationship between HTML as well as CSS is set with the ‘rel’ HTML and CSS link code you learned in the last section we are gonna post it here again for you:</p>
+        <code>
+          Example: < link rel="stylesheet" href="styles.css" /> 
+        </code>
+    </section>
+      </article>
+    <section class="main-section" id="Commenting_in_HTML_and_CSS">
+      <header>Commenting in HTML and CSS</header>
+      <article>
+        <code> HTML:  < ! –This is a comment in HTML--  >
+               
+               
+               CSS:  /*This is a CSS comment*/
+        </code>
+    </section> 
+      </article>
+    <section class="main-section" id="Conclusion">
+      <header>Conclusion</header>
+      <article>
+        <p>HTML and CSS are used for ease of creation of desirable web documents.</p> <p>After comparing HTML vs CSS over different factors, it can be concluded that both the language is necessary for creating attractive web pages.</p>
+        <p>Whether you're looking to break into the exciting industry of web development or you're a novice looking to advance your career, this is the best time to take the next step toward reaching your goals.</p><p>If you are looking to learn some coding in HTML and CSS or any other type of coding, check out<a href="https://www.freecodecamp.org">FreeCodeCamp's COURSES!!!</a></p>
+            <ul>
+              <li>
+              Most of the documentation in this page is taken from
+              <a
+                href="https://www.simplilearn.com/tutorials/html-tutorial/html-vs-css#key_factors_by_which_html_and_css_differ"
+                target="_blank">
+                Simplilearn</a>
+            </li>
+          </ul>
+    </main>
+  </body>
+</html>
+
+                   
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+html, body {
+    min-width: 290px;
+    color: #ffffff;
+    background-color: #2E4053;
+    font-family: Verdana;
+    line-height: 1.5;
+    
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+li {
+    display: list-item;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    padding: 10px
+}
+
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #4D5656;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+header {
+    color: black;
+    margin: 11px;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: bold;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#navbar li a {
+    display: block;
+    padding: 10px 30px;
+    color: #00BCD4 ;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section article {
+    margin: 15px;
+    font-size: 1.3em;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+a:active {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+}
+
+a:visited {
+color: #E91E63;
+}
+
+a:hover {
+  background-color: #FFA000;
+  color: black;
+  cursor: pointer;
+}
+
+a {
+    color: #00897B;
+    background-color: black;
+}
+@media (max-width: 800px) {
+  a {
+    width: 358px;
+  }
